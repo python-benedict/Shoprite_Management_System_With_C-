@@ -7,13 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
+using System.Data.SqlClient; 
 
 namespace WindowsFormsApp1
 {
     public partial class login : Form
     {
-        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Iam Odoefe\Desktop\inventory\WindowsFormsApp1\WindowsFormsApp1\inventory.mdf"";Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Iam Odoefe\Documents\inventory.mdf"";Integrated Security=True;Connect Timeout=30");
         public login()
         {
             InitializeComponent();

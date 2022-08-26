@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WindowsFormsApp1",
+    "\\WindowsFormsApp1\\WindowsFormsApp1"
   ],
-  "SelectedNode": "\\C:\\Users\\Iam Odoefe\\Source\\Repos\\Shoprite_Management_System_With_C-",
+  "SelectedNode": "\\WindowsFormsApp1\\WindowsFormsApp1.sln",
   "PreviewInSolutionExplorer": false
 }
