@@ -75,5 +75,17 @@ namespace WindowsFormsApp1
             da.Fill(dt);
             dataGridView1.DataSource = dt;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int id;
+            id=Convert.ToInt32(dataGridView1.SelectedCells[0].Value.ToString());
+            SqlCommand cmd = conn.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "delete from registration where id="+ id +"";
+            cmd.ExecuteNonQuery();
+
+            display();
+        }
     }
 }
