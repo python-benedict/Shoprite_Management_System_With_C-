@@ -37,7 +37,15 @@ namespace WindowsFormsApp1
             i = Convert.ToInt32(dt.Rows.Count.ToString());
             if (i == 0)
             {
-                
+                SqlCommand cmd1 = conn.CreateCommand();
+                cmd1.CommandType = CommandType.Text;
+                cmd1.CommandText = "insert into registration values('"+ textBox1.Text+"','"+ textBox2.Text+"','"+ textBox3.Text+"','"+textBox4.Text+"','"+textBox5.Text+"','"+textBox6.Text+"')";
+                cmd1.ExecuteNonQuery();
+
+                textBox1.Text = ""; textBox2.Text = ""; textBox3.Text = "";
+                textBox4.Text = ""; textBox5.Text = ""; textBox6.Text = "";
+
+                MessageBox.Show("New user records inserted successfully");
 
             }
             else
