@@ -109,5 +109,11 @@ namespace WindowsFormsApp1
             add_new_user au = new add_new_user();
             au.Show();
         }
+
+        private void addUnitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            unit un = new unit();
+            un.Show();
+        }
     }
 }
