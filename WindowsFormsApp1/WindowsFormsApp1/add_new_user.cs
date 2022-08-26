@@ -44,7 +44,7 @@ namespace WindowsFormsApp1
 
                 textBox1.Text = ""; textBox2.Text = ""; textBox3.Text = "";
                 textBox4.Text = ""; textBox5.Text = ""; textBox6.Text = "";
-
+                display();
                 MessageBox.Show("New user records inserted successfully");
 
             }
@@ -61,6 +61,19 @@ namespace WindowsFormsApp1
                 conn.Close();
             }
             conn.Open();
+            display();
+        }
+
+        public void display()
+        {
+            SqlCommand cmd = conn.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "select * from registration";
+            cmd.ExecuteNonQuery();
+            DataTable dt = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+            dataGridView1.DataSource = dt;
         }
     }
 }
