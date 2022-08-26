@@ -40,26 +40,26 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(25, 36);
+            this.label1.Location = new System.Drawing.Point(51, 43);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 17);
+            this.label1.Size = new System.Drawing.Size(78, 20);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Add Units";
+            this.label1.Text = "Add unit";
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(28, 94);
+            this.textBox1.Location = new System.Drawing.Point(160, 43);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(238, 23);
+            this.textBox1.Size = new System.Drawing.Size(159, 26);
             this.textBox1.TabIndex = 1;
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(12, 364);
+            this.button1.Location = new System.Drawing.Point(192, 114);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(238, 49);
+            this.button1.Size = new System.Drawing.Size(102, 38);
             this.button1.TabIndex = 2;
             this.button1.Text = "Add Unit";
             this.button1.UseVisualStyleBackColor = true;
@@ -68,18 +68,21 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(324, 26);
+            this.dataGridView1.Location = new System.Drawing.Point(412, 43);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(602, 319);
+            this.dataGridView1.Size = new System.Drawing.Size(535, 327);
             this.dataGridView1.TabIndex = 3;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(324, 364);
+            this.button2.Location = new System.Drawing.Point(568, 415);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(186, 49);
+            this.button2.Size = new System.Drawing.Size(213, 29);
             this.button2.TabIndex = 4;
             this.button2.Text = "Delete Selected Unit";
             this.button2.UseVisualStyleBackColor = true;
@@ -87,10 +90,10 @@
             // 
             // unit
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(977, 450);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(992, 489);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);

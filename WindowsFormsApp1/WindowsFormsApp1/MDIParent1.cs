@@ -115,5 +115,10 @@ namespace WindowsFormsApp1
             unit un = new unit();
             un.Show();
         }
+
+        private void MDIParent1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

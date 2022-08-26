@@ -27,4 +27,22 @@ C:\Users\Iam Odoefe\Source\Repos\Shoprite_Management_System_With_C-\WindowsForms
 C:\Users\Iam Odoefe\Source\Repos\Shoprite_Management_System_With_C-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Iam Odoefe\Source\Repos\Shoprite_Management_System_With_C-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\Iam Odoefe\source\repos\Shoprite_Management_System_With_C-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.add_new_user.resources
+C:\Users\User\Desktop\Shoprite_Management_System_With_C-\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\inventory.mdf
+C:\Users\User\Desktop\Shoprite_Management_System_With_C-\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\inventory_log.ldf
+C:\Users\User\Desktop\Shoprite_Management_System_With_C-\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\User\Desktop\Shoprite_Management_System_With_C-\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\User\Desktop\Shoprite_Management_System_With_C-\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\User\Desktop\Shoprite_Management_System_With_C-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Shoprite_Management_System_With_C-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\Shoprite_Management_System_With_C-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.add_new_user.resources
+C:\Users\User\Desktop\Shoprite_Management_System_With_C-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.login.resources
+C:\Users\User\Desktop\Shoprite_Management_System_With_C-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MDIParent1.resources
+C:\Users\User\Desktop\Shoprite_Management_System_With_C-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\User\Desktop\Shoprite_Management_System_With_C-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Shoprite_Management_System_With_C-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Shoprite_Management_System_With_C-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\User\Desktop\Shoprite_Management_System_With_C-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\User\Desktop\Shoprite_Management_System_With_C-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.unit.resources
 C:\Users\Iam Odoefe\source\repos\Shoprite_Management_System_With_C-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.unit.resources
+C:\Users\Iam Odoefe\source\repos\Shoprite_Management_System_With_C-\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Database1.mdf
+C:\Users\Iam Odoefe\source\repos\Shoprite_Management_System_With_C-\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Database1_log.ldf

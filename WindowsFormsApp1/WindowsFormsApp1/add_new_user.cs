@@ -13,7 +13,7 @@ namespace WindowsFormsApp1
 {
     public partial class add_new_user : Form
     {
-        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Iam Odoefe\Documents\inventory.mdf"";Integrated Security=True;Connect Timeout=30");
+        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Desktop\Shoprite_Management_System_With_C-\WindowsFormsApp1\WindowsFormsApp1\inventory.mdf;Integrated Security=True");
         public add_new_user()
         {
             InitializeComponent();

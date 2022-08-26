@@ -13,54 +13,50 @@ namespace WindowsFormsApp1
 {
     public partial class unit : Form
     {
-        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Iam Odoefe\Documents\inventory.mdf"";Integrated Security=True;Connect Timeout=30");
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Desktop\Shoprite_Management_System_With_C-\WindowsFormsApp1\WindowsFormsApp1\inventory.mdf;Integrated Security=True");
         public unit()
         {
             InitializeComponent();
         }
 
-
         private void button1_Click(object sender, EventArgs e)
         {
             int count = 0;
-            SqlCommand cmd1 = conn.CreateCommand();
+            SqlCommand cmd1 = con.CreateCommand();
             cmd1.CommandType = CommandType.Text;
-            cmd1.CommandText = "select * from units where units ='"+ textBox1.Text +"' ";
+            cmd1.CommandText = "select * from units where unit= ' "+ textBox1.Text+ "' ";
             cmd1.ExecuteNonQuery();
             DataTable dt1 = new DataTable();
             SqlDataAdapter da1 = new SqlDataAdapter(cmd1);
             da1.Fill(dt1);
             count = Convert.ToInt32(dt1.Rows.Count.ToString());
             if (count == 0)
+
             {
-                SqlCommand cmd = conn.CreateCommand();
+                SqlCommand cmd = con.CreateCommand();
                 cmd.CommandType = CommandType.Text;
-                cmd.CommandText = "insert into units values('" + textBox1.Text + "')";
+                cmd.CommandText = "insert into units values(' " + textBox1.Text + " ')";
                 cmd.ExecuteNonQuery();
                 disp();
             }
             else
             {
-                MessageBox.Show("This unit has been  added already");
+                MessageBox.Show("this unit is already added");
             }
-
-            
         }
 
         private void unit_Load(object sender, EventArgs e)
         {
-            if (conn.State == ConnectionState.Open)
+            if (con.State == ConnectionState.Open)
             {
-                conn.Close();
+                con.Close();
             }
-            conn.Open();
+            con.Open();
             disp();
-
         }
-
         public void disp()
         {
-            SqlCommand cmd = conn.CreateCommand();
+            SqlCommand cmd = con.CreateCommand();
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = "select * from units";
             cmd.ExecuteNonQuery();
@@ -74,11 +70,15 @@ namespace WindowsFormsApp1
         {
             int id;
             id = Convert.ToInt32(dataGridView1.SelectedCells[0].Value.ToString());
-            SqlCommand cmd = conn.CreateCommand();
+            SqlCommand cmd = con.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "delete from units where id="+ id+"";
+            cmd.CommandText = "delete from units where id=" + id + "";
             cmd.ExecuteNonQuery();
             disp();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
         }
     }
